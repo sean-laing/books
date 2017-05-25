@@ -9,4 +9,6 @@ Add another folder with the mood label, and put plain text file in new folder
 
 # Output
 Probability of a book being in a mood label.
-TODO: Add html generation that color codes describes the mood 
+
+#Problems
+Has issues with classifing horror vs. fantasy -- which on the surface makes sense.
