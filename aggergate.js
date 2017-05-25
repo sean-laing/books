@@ -31,6 +31,6 @@ const main = () => {
 	rl.on('close', outputAggergate)
 };
 
-options.filename = options.filename.replace('\n','');
-options.booktype = options.booktype.replace('\n','');
+options.filename = options.filename.replace('\n','').replace('\r','').replace("'",'_').replace("’",'_');
+options.booktype = options.booktype.replace('\n','').replace('\r','');
 main();
